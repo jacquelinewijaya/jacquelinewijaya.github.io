@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Maven+Pro&family=Modak&family=Orbitron&display=swap');
+
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Modak';
+    max-width: 100%;
+    max-height: 3.125rem;
+    background-image: url("/img/home_background.svg");
+    background-size: cover;
+}
+#logo {
+    width: 300px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+a {
+    color: #b3d1ff;
+    text-decoration: none;
+    margin: 0 0 0 15rem;
+    max-width: 100%;
+    height: auto;
+}
+header  {
+    display: flex;
+    background: #000;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    height: auto;
+}
+
+#href {
+    flex-direction: row;
+    
+}
+
+main {
+
+}
+
+footer {
+    flex-direction: row;
+
+}
+
+#byline {
+    color: #b3d1ff;
+    background-color: #090c43;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "Exo";
+    text-align: center;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: normal;
+    width: 40%;
+    height: 100%;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 150px;
+    margin-bottom: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+.about-logo {
+    width: 100px;
+    margin-left: 5%;
+}
+
+#headshot {
+    
+    margin-top: 5%;
+    margin-left: 5rem;
+    margin-bottom: 10%;
+    width: 20%;
+    position: fixed;
+    float: left;
+    transform: scale(0.75);
+
+}
+
+#about-bio {
+    color: #b3d1ff;
+    background-color: #090c43;
+    font-family: "Exo";
+    text-align: center;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: normal;
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    border-radius: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 50%;
+}
+
+section:hover {
+    opacity: 50%;
+}
+
+#leftpic_preview {
+    display: flex;
+    width: 40%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+#rightpic_preview {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 50%;
+    margin-bottom: 10%;
+}
+
+.food_page {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    margin-top: 10%;
+}
+
+h3 {
+    line-height: 1;
+    color: red;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "Exo";
+  
+}
+#food_description{
+    color: white;
+    background-color: #090c43;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5%;
+}
+
+.one {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 3/3;
+  }
+  .four {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .five {
+    grid-column: 3;
+    grid-row: 4/4;
+  }
+  .six {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .seven {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .eight {
+    grid-column: 4;
+    grid-row: 4;
+  }
+  .ten {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .eleven {
+    grid-column: 3;
+    grid-row: 2;
+  }
+ #icon_image {
+    display: flex;
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 70%;
+ }
+ #icon_heading {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 40%;
+    width: 70%;
+ }
+ #icon_description {
+    display: flex;
+    margin-left: 50%;
+    margin-right: 10%;
+    width: 40%;
+    color: #b3d1ff;
+    background-color: #090c43;
+    font-family: "Exo";
+    text-align: center;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2%;
+ }
+ #accordion_description {
+    display: flex;
+    margin-left: 50%;
+    margin-right: 10%;
+    width: 40%;
+    color: #b3d1ff;
+    background-color: #090c43;
+    font-family: "Exo";
+    text-align: center;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2%;
+ }
+ #accordion_image {
+    display: flex;
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 70%;
+ }
+ #accordion_heading {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 40%;
+    width: 70%;
+ }
+ #psa_image {
+    display: flex;
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 70%;
+ }
+
+ #psa_heading {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 40%;
+    width: 70%;
+ }
+
+ #psa_description {
+    display: flex;
+    margin-left: 50%;
+    margin-right: 10%;
+    width: 40%;
+    color: #b3d1ff;
+    background-color: #090c43;
+    font-family: "Exo";
+    text-align: center;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2%;
+ }
+
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: 'Exo';
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #contact_page {
+    margin-top: 10%;
+  }
